@@ -56,6 +56,7 @@ header{
     font-size: 35px;
     z-index: 101; /* para que el icono esté por encima del header*/
     cursor: pointer; /*para que aparezca el cursor como una mano al apuntar sobre el icono*/
+    display: none;
 }
 
 #menu-toggle{
@@ -262,8 +263,7 @@ section{
         margin: 7px 0;
     }
 
-    #menu-toggle:checked + label.menu-icon-action + ul{
+    .nav-list.open{
         right: 0;
     }
-
 }
